@@ -4,4 +4,4 @@ Invitation bilingue français/arabe, le 30 octobre 2026 à 21 h, au Palace Miami
 
 Destinataire : Monsieur Rafik Ben Ayed — السيد رفيق بن عياد.
 
-Le MP3 se lance au clic sur « Ouvrir l’invitation ». Son introduction de 15,9 secondes a été retirée.
+Le nouveau MP3 fourni est intégré directement au site et se lance au clic sur « Ouvrir l’invitation ».
