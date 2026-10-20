@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#344535">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="Ali et Amal ont la joie de vous inviter à leur mariage, le 30 octobre 2026 à 21 h, au Palace Miami à Sfax.">
+  <meta property="og:title" content="Ali & Amal — Un soir pour toujours">
+  <meta property="og:description" content="Une invitation à partager notre bonheur. Le 30 octobre 2026, à Sfax.">
+  <meta property="og:type" content="website">
+  <title>Ali & Amal — Un soir pour toujours</title>
+  <link rel="icon" type="image/svg+xml" href="assets/monogram.svg">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" as="image" href="assets/wedding.jpg">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#invitation" data-i18n="skip">Aller à l’invitation</a>
+  <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+      <symbol id="pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="calendar" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 3v4m8-4v4M4 11h16m-11 4h2m2 0h2m-6 3h2"/></symbol>
+      <symbol id="share" viewBox="0 0 24 24"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></symbol>
+      <symbol id="olive" viewBox="0 0 180 260"><g fill="none" stroke="currentColor" stroke-width="1.2"><path d="M26 249C83 187 123 113 137 15M61 205c-19-2-36-14-37-32 20 3 35 13 37 32Zm17-26c8-22 25-29 43-25-6 19-22 28-43 25Zm8-17c-21-4-31-15-33-33 19 3 33 15 33 33Zm16-31c11-21 27-26 42-21-8 17-22 23-42 21Zm9-24c-20-5-28-19-28-34 19 6 29 18 28 34Zm13-36c9-19 22-24 37-22-5 17-20 24-37 22Zm6-19c-14-8-20-20-18-35 14 6 21 21 18 35Zm7-22c0-15 6-24 17-30 1 15-5 25-17 30Z"/></g></symbol>
+    </defs>
+  </svg>
+
+  <header class="topbar page-width">
+    <a class="monogram" href="#accueil" aria-label="Ali et Amal, accueil">a<span>&</span>a<i></i></a>
+    <span class="header-date" data-i18n="navDate">30 OCTOBRE 2026 · SFAX</span>
+    <div class="header-actions">
+      <div class="languages" role="group" aria-label="Language / اللغة">
+        <button type="button" class="language-button active" data-lang="fr" aria-pressed="true">FR</button>
+        <span class="language-divider" aria-hidden="true"></span>
+        <button type="button" class="language-button arabic-switch" data-lang="ar" aria-pressed="false" lang="ar">عربي</button>
+      </div>
+      <button class="sound-button" id="sound-toggle" type="button" hidden aria-label="Activer l’ambiance musicale" aria-pressed="false" aria-busy="false" title="Ambiance musicale">
+        <span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span class="sound-slash" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page-width" id="accueil" aria-labelledby="couple-names">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="little-line" aria-hidden="true"></span><span data-i18n="heroEyebrow">LE BONHEUR SE PARTAGE</span></div>
+        <h1 class="couple-names" id="couple-names" aria-label="Ali et Amal"><span id="name-ali">Ali</span><span class="ampersand" aria-hidden="true">&</span><span class="name-amal" id="name-amal">Amal</span></h1>
+        <p class="hero-tagline" data-i18n="tagline">Un soir pour toujours.</p>
+        <p class="hero-description" data-i18n="heroDescription">Nous nous disons oui. Et nous aimerions tant partager cet instant avec vous.</p>
+        <div class="hero-date"><span class="date-day">30</span><div><span class="date-month" data-i18n="monthYear">OCTOBRE 2026</span><span class="date-detail" data-i18n="dayTime">Vendredi · 21 heures · Sfax</span></div></div>
+        <a href="#invitation" class="button button-primary" id="open-invitation"><span data-i18n="open">Ouvrir l’invitation</span><svg aria-hidden="true"><use href="#arrow"/></svg></a>
+        <p class="opening-music-note" id="opening-music-note" data-i18n="openingMusic">Ouvrez l’invitation en musique.</p>
+        <p class="guest-line"><span data-i18n="guestPrefix">Une invitation pour</span> <strong class="guest-name">Monsieur Rafik Ben Ayed</strong></p>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-outline" aria-hidden="true"></div>
+        <div class="photo-frame"><img src="assets/wedding.jpg" alt="Fleurs et table dressée pour une réception de mariage" width="1600" height="1067" fetchpriority="high" id="hero-photo"><div class="photo-shade"></div><span class="photo-caption" data-i18n="photoCaption">La beauté d’être ensemble.</span></div>
+        <svg class="round-stamp" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="stamp-circle" d="M60 60m-43 0a43 43 0 1 1 86 0a43 43 0 1 1-86 0"/></defs><circle cx="60" cy="60" r="58"/><text><textPath href="#stamp-circle" textLength="264">ALI & AMAL · POUR TOUJOURS · </textPath></text><path class="stamp-flower" d="M60 38c12 8 12 15 0 22-12-7-12-14 0-22Zm0 22c12-7 19-3 21 10-13 7-20 3-21-10Zm0 0c0 14-7 19-20 14-2-14 5-19 20-14Z"/></svg>
+        <div class="photo-note"><span data-i18n="saveDate">RÉSERVEZ CETTE DATE</span><strong>30<span>.</span>10<span>.</span>26</strong><em data-i18n="note">Le début d’un toujours.</em></div>
+      </div>
+      <div class="hero-bottom"><span data-i18n="scroll">FAITES DÉFILER, L’HISTOIRE CONTINUE</span><span class="scroll-line" aria-hidden="true"></span><span>01 — 04</span></div>
+    </section>
+
+    <section class="invitation-section" id="invitation" aria-labelledby="invitation-title">
+      <div class="invitation-grid page-width">
+        <div class="invitation-intro reveal">
+          <span class="eyebrow light" data-i18n="invitationEyebrow">AVEC TOUT NOTRE AMOUR</span>
+          <h2 class="section-title" id="invitation-title" tabindex="-1" data-i18n="invitationTitle">Une place à nos côtés.</h2>
+          <svg class="intro-olive" aria-hidden="true"><use href="#olive"/></svg>
+          <p class="arabic-blessing" lang="ar" dir="rtl">بارك الله لهما وبارك عليهما<br>وجمع بينهما في خير</p>
+        </div>
+        <article class="invitation-letter reveal" id="invitation-letter">
+          <div class="letter-border" aria-hidden="true"></div>
+          <div class="wax-seal" aria-hidden="true">a<span>&</span>a</div>
+          <span class="eyebrow" data-i18n="letterEyebrow">VOUS ÊTES INVITÉ</span>
+          <p class="letter-guest guest-name">Monsieur Rafik Ben Ayed</p>
+          <span class="letter-rule" aria-hidden="true"></span>
+          <p class="families-label" data-i18n="families">Les familles de</p>
+          <div class="families"><span lang="ar" dir="rtl">قاسم المرعوي</span><span class="family-and" data-i18n="and">et</span><span lang="ar" dir="rtl">محمد واردة</span></div>
+          <p class="letter-body" data-i18n="letterBody">ont la joie de vous inviter au mariage de leurs enfants</p>
+          <p class="letter-names"><span class="short-ali">Ali</span> <em>&</em> <span class="short-amal">Amal</span></p>
+          <p class="letter-closing" data-i18n="letterClosing">Votre présence rendra cette soirée encore plus belle.</p>
+          <span class="letter-flower" aria-hidden="true">✳</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="countdown-section page-width" aria-labelledby="countdown-title">
+      <div class="reveal"><span class="eyebrow" data-i18n="countdownEyebrow">CHAQUE INSTANT NOUS RAPPROCHE</span><h2 class="section-title" id="countdown-title" data-i18n="countdownTitle">Bientôt, ensemble.</h2></div>
+      <div class="countdown reveal" role="timer" aria-label="Compte à rebours avant le mariage" id="countdown">
+        <div class="countdown-unit"><span id="days">00</span><small data-i18n="days">JOURS</small></div><span class="time-colon" aria-hidden="true">:</span>
+        <div class="countdown-unit"><span id="hours">00</span><small data-i18n="hours">HEURES</small></div><span class="time-colon" aria-hidden="true">:</span>
+        <div class="countdown-unit"><span id="minutes">00</span><small data-i18n="minutes">MINUTES</small></div><span class="time-colon" aria-hidden="true">:</span>
+        <div class="countdown-unit"><span id="seconds">00</span><small data-i18n="seconds">SECONDES</small></div>
+      </div>
+      <p class="time-note" data-i18n="timeNote" id="time-note">Le 30 octobre 2026, à 21 h · Heure de Tunisie</p>
+    </section>
+
+    <section class="location-section page-width" id="rendez-vous" aria-labelledby="location-title">
+      <div class="date-art reveal">
+        <svg class="date-olive top-olive" aria-hidden="true"><use href="#olive"/></svg><svg class="date-olive bottom-olive" aria-hidden="true"><use href="#olive"/></svg>
+        <span class="eyebrow" data-i18n="friday">VENDREDI</span>
+        <span class="art-day">30</span><span class="art-month" data-i18n="october">octobre</span><span class="art-year">— 2026 —</span>
+        <svg class="rings" viewBox="0 0 120 65" aria-hidden="true"><circle cx="44" cy="34" r="24"/><circle cx="78" cy="34" r="24"/><path d="m42 6 4-5 4 5-4 5Z"/></svg>
+        <span class="art-footer" data-i18n="artFooter">UNE DATE À GARDER PRÈS DU CŒUR</span>
+      </div>
+      <div class="location-copy reveal">
+        <span class="eyebrow" data-i18n="locationEyebrow">LE RENDEZ-VOUS</span>
+        <h2 class="section-title" id="location-title" data-i18n="locationTitle">Là où l’on célèbre.</h2>
+        <span class="venue-type" data-i18n="reception">RÉCEPTION DE MARIAGE</span>
+        <h3>Le Palace Miami</h3>
+        <p class="venue-address" data-i18n="address">Route de Sidi Mansour, km 1,5<br>Sfax, Tunisie</p>
+        <p class="venue-time"><svg aria-hidden="true"><use href="#calendar"/></svg><span data-i18n="venueTime">Vendredi 30 octobre · 21 h</span></p>
+        <div class="location-buttons"><a class="button button-primary" href="https://maps.app.goo.gl/RXcB1Sj52KmBmmtp6" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#pin"/></svg><span data-i18n="directions">Voir l’itinéraire</span><span class="external-arrow" aria-hidden="true">↗</span></a><a class="button button-outline" id="calendar-link" href="mariage-ali-amal.ics" download><svg aria-hidden="true"><use href="#calendar"/></svg><span data-i18n="calendar">Ajouter à mon calendrier</span></a></div>
+      </div>
+    </section>
+
+    <section class="closing-section page-width reveal" aria-labelledby="closing-title">
+      <span class="closing-flower" aria-hidden="true">✳</span>
+      <p class="closing-arabic" lang="ar" dir="rtl">بحضوركم يكتمل فرحنا</p>
+      <h2 id="closing-title" data-i18n="closingTitle">Les plus beaux moments<br>se vivent ensemble.</h2>
+      <span class="closing-signature"><span class="short-ali">Ali</span> <em>&</em> <span class="short-amal">Amal</span></span>
+      <button class="share-button" id="share-invitation" type="button"><svg aria-hidden="true"><use href="#share"/></svg><span data-i18n="share">Partager l’invitation</span></button>
+    </section>
+  </main>
+
+  <footer class="footer page-width"><span>ALI & AMAL <i>·</i> 30.10.2026</span><a href="#accueil" data-i18n="backTop">Retour en haut ↑</a></footer>
+  <audio id="wedding-audio" src="assets/musique-directe.mp3" loop preload="auto"></audio>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="share-dialog" aria-labelledby="share-title"><button class="dialog-close" type="button" id="close-dialog" aria-label="Fermer">×</button><h2 id="share-title" data-i18n="share">Partager l’invitation</h2><label for="share-url" data-i18n="shareLabel">Le lien de l’invitation</label><input id="share-url" type="url" readonly><button type="button" class="button button-primary" id="copy-link" data-i18n="copy">Copier le lien</button></dialog>
+</body>
+</html>
